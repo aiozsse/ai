@@ -6,7 +6,7 @@ import { Code } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { ChatCompletionRequestMessage } from "openai";
+//import { ChatCompletionRequestMessage } from "openai";
 import ReactMarkdown from "react-markdown";
 
 import { BotAvatar } from "@/components/bot-avatar";
@@ -26,6 +26,11 @@ type ChatCompletionRequestMessage = {
   role: "user" | "assistant" | "system";
   content: string;
 };
+
+/*type ChatCompletionRequestMessage = {
+  role: "user" | "assistant" | "system";
+  content: string;
+};*/
 
 const CodePage = () => {
     const router = useRouter();
