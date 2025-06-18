@@ -61,7 +61,7 @@ const ImagePage = () => {
                 icon={ImageIcon}
                 iconColor="text-black"
                 //iconColor="text-pink-700"
-                bgColor="bg-pink-700/10"
+                //bgColor="bg-pink-700/10"
             />
             <div className="px-4 lg:px-8">
                 <div>

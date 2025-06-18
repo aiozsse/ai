@@ -55,7 +55,7 @@ const MusicPage = () => {
                 icon={Music}
                 iconColor="text-black"
                 //iconColor="text-emerald-500"
-                bgColor="bg-emerald-500/10"
+                //bgColor="bg-emerald-500/10"
             />
             <div className="px-4 lg:px-8">
                 <div>

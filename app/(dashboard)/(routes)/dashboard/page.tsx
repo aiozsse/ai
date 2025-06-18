@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 
 const tools = [
   {
-    label: "Chat",
+    label: "Chat Generation",
     icon: MessageSquare,
     color: "text-black",
     //color: "text-violet-500",

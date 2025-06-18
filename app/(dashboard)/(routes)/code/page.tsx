@@ -76,7 +76,7 @@ const CodePage = () => {
                 icon={Code}
                 iconColor="text-black"
                 //iconColor="text-green-700"
-                bgColor="bg-green-700/10"
+                //bgColor="bg-green-700/10"
             />
             <div className="px-4 lg:px-8">
                 <div>

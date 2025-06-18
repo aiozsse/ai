@@ -55,7 +55,7 @@ const VideoPage = () => {
                 icon={VideoIcon}
                 iconColor="text-black"
                 //iconColor="text-orange-700"
-                bgColor="bg-orange-700/10"
+                //bgColor="bg-orange-700/10"
             />
             <div className="px-4 lg:px-8">
                 <div>
