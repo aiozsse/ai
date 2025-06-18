@@ -2,14 +2,14 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Montserrat } from 'next/font/google'
+//import { Montserrat } from 'next/font/google'
 import { Code, ImageIcon, LayoutDashboard, MessageSquare, Music, Settings, VideoIcon } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils";
 //import { FreeCounter } from "@/components/free-counter";
 
-const poppins = Montserrat ({ weight: '600', subsets: ['latin'] });
+//const poppins = Montserrat ({ weight: '600', subsets: ['latin'] });
 
 const routes = [
   {
@@ -78,7 +78,7 @@ export const Sidebar = ({
           <div className="relative h-8 w-8 mr-4">
             {/*<Image fill alt="Logo" src="/aibrain.png" />*/}
           </div>
-          <h1 className={cn("text-2xl font-bold", poppins.className)}>
+          <h1 className={cn("text-2xl font-bold" /*, poppins.className */)}>
             Dominique Castaneda AI
           </h1>
         </Link>
